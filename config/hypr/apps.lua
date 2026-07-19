@@ -1,0 +1,7 @@
+hl.on("hyprland.start", function ()
+   hl.exec_cmd("quickshell")
+   hl.exec_cmd("hypridle")
+   hl.exec_cmd("hyprlock")
+   hl.exec_cmd("waywallen-layer-shell")
+   hl.exec_cmd("flatpak run org.waywallen.waywallen")
+end)
